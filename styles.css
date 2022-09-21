@@ -1,0 +1,341 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: local('Font Awesome 5 Brands'),
+    url(fonts/fa-brands-400.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Font Awesome 5 Regular';
+    src: local('Font Awesome 5 Regular'),
+    url(fonts/fa-regular-400.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Font Awesome 5 Solid';
+    src: local('Font Awesome 5 Solid'),
+    url(fonts/fa-solid-900.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Font Awesome Webfront';
+    src: local('Font Awesome Webfront'),
+    url(fonts/fontawesome-webfont.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Font Awesome';
+    src: local('Font Awesome'),
+    url(fonts/FontAwesome.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Philosopher Bold';
+    src: local('Philosopher Bold'),
+    url(fonts/Philosopher-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Philosopher Regular';
+    src: local('Philosopher Regular'),
+    url(fonts/Philosopher-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto Italic';
+    src: local('Roboto Italic'),
+    url(fonts/Roboto-Italic.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    src: local('Roboto Medium'),
+    url(fonts/Roboto-Medium.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: local('Roboto Regular'),
+    url(fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.W-100 {
+    width: 100%;
+    height: 70px;
+
+} 
+.navbar {
+    background-color: #008daa;
+    margin-bottom: 0;
+}
+.navbar > img {
+    /* должно быть справа???  */
+}
+
+.main {
+    background-color: #eeeeed;
+    height: 600px;
+}
+
+.list-inline {
+    color: #06bac5;
+    text-transform: uppercase;
+}
+/* ul.navigation li {
+    display: inline;
+} */
+li {
+    list-style-type: disc;
+    margin-right: 5px;
+}
+.list-inline:hover {
+    color: #eb477b;
+    cursor: pointer;
+}
+.h2 {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    text-align: center;
+    padding-top: 30px;
+}
+.descr {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    text-align: center;
+    padding-left: 40px;
+}
+.imglogo {
+    width: 600px;
+    height: 500px;
+}
+.h2-1 {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    text-align: center;
+    text-transform: uppercase;
+}
+.about {
+    height: 600px;
+}
+.info {
+    color: #005c7d;
+    text-align: center;
+    font-family: 'Philosopher Regular';
+}
+.details {
+    width: 60px;
+    height: 60px;
+}
+details:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.details1 {
+    text-align: center;
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+}
+.details2 {
+    color: #008daa;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Philosopher Regular';
+}
+.benefits {
+    background-color: #eeeeed;
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    height: 600px;
+    font-size: 18px;
+}
+.ben {
+    text-align: center;
+}
+.glyphicon {
+    padding: 20px;
+}
+.questions {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    height: 600px;
+    font-size: 18px;
+}
+.que {
+    text-align: center;
+}
+details {
+    padding: 20px;
+}
+summary {
+    color: #008daa;
+}
+.hid {
+    font-size: 10px;
+    color: #005c7d;
+    font-family: 'Roboto Italic';
+    padding-left: 20px;
+}
+.ans {
+    color: #008daa;
+    text-align: center;
+}
+.review {
+    background-color: #eeeeed;
+    height: 600px;
+    padding-top: 40px;
+}
+.rev {
+    text-align: center;
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+}
+.review1 {
+    font-family: 'Roboto Italic';
+    color: #005c7d;
+}
+.img-circle {
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+}
+.name-year {
+    font-family: 'Philosopher Regular';
+    color: #008daa;
+    text-align: center;
+    margin-top: 10px;
+}
+.contacts {
+    height: 600px;
+    padding-top: 200px;
+}
+.cont {
+    text-align: center;
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+}
+.edc {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    text-align: end;
+    font-size: 18px;
+}
+.arrow {
+    height: 40px;
+    width: 120px;
+}
+.mains {
+    color: #005c7d;
+    font-family: 'Philosopher Regular';
+    font-size: 18px;
+}
+.mains:hover {
+    color: #eb477b;
+}
+.we {
+    font-family: 'Philosopher Regular';
+    color: #005c7d;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.social-contacts {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.navbar-static-bottom {
+    color: #eeeeed;
+}
+.politics {
+    text-decoration: underline;
+    color: #eeeeed;
+
+}
+.b1 {
+    background-color: #005c7d;
+    border-radius: 20px;
+    color: #eeeeed;
+    font-family: 'Roboto Regular';
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    margin: 50px;
+}
+.b2 {
+    color: #06bac5;
+    font-family: 'Roboto Regular';
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.b3 {
+    font-family: 'Roboto Regular';
+    color: #d4d0c8;
+    text-decoration: underline;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.b3:hover {
+    cursor: pointer;
+}
+.b4 {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.b4 > a > img {
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+
+}
+.b1:hover {
+    background-color: #eb477b;
+}
+.b2:hover {
+    color: #eb477b;
+}
+.r3 {
+    margin-top: 30px;
+}
+.b5 {
+    font-family: 'Roboto Regular';
+    color: #008daa;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.b5:hover {
+    color: #eb477b;
+}
+.b6 {
+    margin: 20px;
+}
+.b6 > img {
+    height: 60px;
+    width: 60px;
+}
+.b7 {
+    color: #005c7d;
+    text-decoration: underline;
+    font-family: 'Philosopher Bold';
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.b7:hover {
+    color: #eb477b;
+}
